@@ -1,0 +1,6 @@
+f1=open('apple_file.png','rb')
+f2=open("read.png","wb")
+bytes=f1.read()
+f2.write(bytes)
+f1.close()
+f2.close()
